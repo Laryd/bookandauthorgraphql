@@ -10,7 +10,7 @@ const {
   GraphQLNonNull,
 } = require("graphql");
 
-//example data instead of a database
+//example book and author data as object list instead of a database
 const authors = [
   { id: 1, name: "J. K. Rowling" },
   { id: 2, name: "J. R. R. Tolkien" },
